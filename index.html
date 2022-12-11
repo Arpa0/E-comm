@@ -21,7 +21,7 @@
     <div class="wrapper">
       <div class="header">
         <div class="logo arrange-left wid-25">
-          <h1><span>E</span><span>Comm</span></h1>
+          <h1><span>Touch</span><span>&</span><span>Take</span></h1>
         </div>
         <div class="search-product arrange-left wid-50">
           <input type="text" placeholder="Search for Products" />
@@ -32,13 +32,13 @@
         <div class="selected-product arrange-left wid-25">
           <button class="common-btn">
             <span>
-              <i class="fa-solid fa-cart-arrow-down"></i>
+              <i class="fa-solid fa-cart-arrow-down" style="color:#E7717d ;"></i>
               0</span
             >
           </button>
           <button class="common-btn">
             <span>
-              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-heart" style="color:#E7717d ;"></i>
               0</span
             >
           </button>
@@ -70,16 +70,7 @@
             <ul class="left-menu-list">
               <li><a href="#">Home</a></li>
               <li><a href="#">Shop</a></li>
-              <li class="dropdown-head">
-                <a href="#"
-                  >Product Details
-                  <i class="fa-solid fa-angle-down"></i>
-                </a>
-                <ul class="dropdown">
-                  <li><a href="#">Cart</a></li>
-                  <li><a href="#">Checkout</a></li>
-                </ul>
-              </li>
+              <li><a href="#">Product</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
             <ul class="right-menu-list">
@@ -88,12 +79,44 @@
             </ul>
           </div>
           <div class="banner">
-            <img src="./banner.jpg" alt="banner" />
-            <div class="banner-text">
-              <h4>10% off Your First Order</h4>
-              <h3>Fashionable Dress</h3>
-              <a class="show-now">Show Now</a>
-            </div>
+            
+            <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/banner.jpg" style="width:100%">
+                <div class="text"> <h4>10% off on Your First Order</h4>
+                  <h3>Accessories</h3>
+                  <a class="shop-now" href="#">Shop Now</a></div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/banner-2.jpg" style="width:100%">
+                <div class="text"> <h4>10% off on Your First Order</h4>
+                  <h3>Wateches</h3>
+                  <a class="shop-now" href="#">Shop Now</a></div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/banner-3.jpg" style="width:100%">
+                <div class="text"> <h4>10% off on Your First Order</h4>
+                  <h3>Mobiles</h3>
+                  <a class="shop-now" href="#">Shop Now</a></div>
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+              
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
           </div>
         </div>
       </div>
@@ -136,7 +159,7 @@
           <div class="category-item">
             <div class="product-count">20 Products</div>
             <div class="category-img">
-              <img src="./cat-1.jpg" />
+              <img src="images/cat-1.jpg" />
             </div>
             <div class="category-type">
               <h5>Men's Dresses</h5>
@@ -147,7 +170,7 @@
           <div class="category-item">
             <div class="product-count">80 Products</div>
             <div class="category-img">
-              <img src="./cat-2.jpg" />
+              <img src="images/cat-2.jpg" />
             </div>
             <div class="category-type">
               <h5>Women's Dresses</h5>
@@ -158,7 +181,7 @@
           <div class="category-item">
             <div class="product-count">40 Products</div>
             <div class="category-img">
-              <img src="./cat-3.jpg" />
+              <img src="images/cat-3.jpg" />
             </div>
             <div class="category-type">
               <h5>Boy's Dresses</h5>
@@ -169,7 +192,7 @@
       <div class="wrapper next-row">
         <div class="wid-50 arrange-left">
           <div class="offer-banner">
-            <img src="./offer-1.png" alt="" />
+            <img src="images/offer-1.png" alt="" />
             <div class="offer-text">
               <h5>20% off the all order</h5>
               <h3>Spring Collection</h3>
@@ -179,7 +202,7 @@
         </div>
         <div class="wid-50 arrange-left">
           <div class="offer-banner">
-            <img class="flip-img" src="./offer-2.png" alt="" />
+            <img class="flip-img" src="images/offer-2.png" alt="" />
             <div class="offer-text">
               <h5>30% off the all order</h5>
               <h3>Winter Collection</h3>
@@ -192,7 +215,7 @@
         <div class="wid-25 arrange-left">
           <div class="cart">
             <div>
-              <img src="./product-1.jpg" alt="" />
+              <img src="images/product-1.jpg" alt="" />
             </div>
             <div class="cart-details">
               <h6 class="name-head">Colorful Stylish Shirt</h6>
@@ -216,7 +239,7 @@
         <div class="wid-25 arrange-left">
           <div class="cart">
             <div>
-              <img src="./product-2.jpg" alt="" />
+              <img src="images/product-2.jpg" alt="" />
             </div>
             <div class="cart-details">
               <h6 class="name-head">Colorful Stylish Shirt</h6>
@@ -240,7 +263,7 @@
         <div class="wid-25 arrange-left">
           <div class="cart">
             <div>
-              <img src="./product-3.jpg" alt="" />
+              <img src="images/product-3.jpg" alt="" />
             </div>
             <div class="cart-details">
               <h6 class="name-head">Colorful Stylish Shirt</h6>
@@ -264,7 +287,7 @@
         <div class="wid-25 arrange-left">
           <div class="cart">
             <div>
-              <img src="./product-4.jpg" alt="" />
+              <img src="images/product-4.jpg" alt="" />
             </div>
             <div class="cart-details">
               <h6 class="name-head">Colorful Stylish Shirt</h6>
@@ -304,17 +327,17 @@
         </div>
       </div>
       <div class="vender-list">
-        <img src="./vendor-1.jpg" alt="" />
-        <img src="./vendor-2.jpg" alt="" />
-        <img src="./vendor-3.jpg" alt="" />
-        <img src="./vendor-4.jpg" alt="" />
-        <img src="./vendor-5.jpg" alt="" />
+        <a href="#"> <img src="images/vendor-1.jpg" alt="" /></a>
+        <a href="#"><img src="images/vendor-2.jpg" alt="" /></a>
+        <a href="#"><img src="images/vendor-3.jpg" alt="" /></a>
+        <a href="#"><img src="images/vendor-4.jpg" alt="" /></a>
+        <a href="#"><img src="images/vendor-5.jpg" alt="" /></a>
       </div>
       <div class="wrapper next-row">
         <div class="footer">
           <div class="wid-25 arrange-left margin-right-5">
             <div class="logo">
-              <h1><span>E</span><span>Comm</span></h1>
+              <h1><span>Touch</span><span>&</span><span>Take</span></h1>
             </div>
             <p class="footer-desc">
               Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum
@@ -322,11 +345,11 @@
             </p>
             <ul class="contact-list">
               <li>
-                <i class="fa fa-map-marker-alt icon"></i>123 Street, New York,
-                USA
+                <a href="#"><i class="fa fa-map-marker-alt icon" style="color:#E7717d ;"></i>R9VF+WG6, Shahid Abdul Jabbar Road,
+                Bogura</a>
               </li>
-              <li><i class="fa fa-envelope icon"></i>info@example.com</li>
-              <li><i class="fa fa-phone icon"></i>+012 345 67890</li>
+              <li><a href= "#"><i class="fa fa-envelope icon" style="color:#E7717d ;"></i>info@example.com</a></li>
+              <li><a href="#"><i class="fa fa-phone icon" style="color:#E7717d ;"></i>051-62233</a></li>
             </ul>
           </div>
           <div class="wid-25 quick-links arrange-left">
@@ -400,7 +423,7 @@
             </ul>
           </div>
           <div class="wid-25 arrange-left">
-            <h3>News Letter</h3>
+            <div class="new"><h3>News Letter</h3></div>
             <input type="text" class="footer-input" placeholder="Enter Name" />
             <input type="text" class="footer-input" placeholder="Enter Email" />
             <button class="footer-button">Subscribe</button>
@@ -409,11 +432,13 @@
       </div>
       <div class="copy-right">
         <div>
-          © <b>Code Step by Step</b>. All Rights Reserved. Designed by
-          <b>Anil Sidhu</b>
+          © <b>Copyright 1999-2022 by Refsnes Data. All Rights Reserved</b>
         </div>
-        <img src="./payments.png" alt="" />
+      
       </div>
     </div>
+    <script src="script.js"></script>
+
+
   </body>
 </html>
